@@ -3,7 +3,7 @@ import pandas as pd
 import re
 import os
 
-SQL_FILE = "analysis_query.sql"
+SQL_FILE = "./sql_script/analysis_query.sql"
 DB_FILE = "ecommerce.db"
 OUTPUT_DIR = "query_results"
 
