@@ -1,4 +1,4 @@
-<img width="1790" height="896" alt="image" src="https://github.com/user-attachments/assets/9f249465-93a2-4677-bfaa-4b29ea7d96a9" />## E-Commerce Order Analytics System
+## E-Commerce Order Analytics System
 
 An end-to-end data pipeline built with **Python** and **SQLite** that generates messy e-commerce data, cleans it, loads it into a relational database, and produces business analytics through SQL and a command-line reporting tool.
 
