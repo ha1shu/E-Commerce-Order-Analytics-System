@@ -18,6 +18,16 @@ Online order data rarely arrives clean. This project simulates that reality:
 6. **Test** the pipeline against edge cases (bad order references, invalid discounts, zero quantities, future-dated orders) to confirm the cleaning logic behaves as intended.
 
 ---
+### Screenshots Of projects
+genration_data.py
+<img width="1917" height="998" alt="image" src="https://github.com/user-attachments/assets/ef41af7f-7b49-453f-86e4-aaa3778f1ea2" />
+
+cleaned_data.py
+<img width="1376" height="717" alt="image" src="https://github.com/user-attachments/assets/29d9790b-07a1-4475-880f-3b1488e0f061" />
+
+report_cli.py
+<img width="1792" height="1015" alt="image" src="https://github.com/user-attachments/assets/e539b0b1-e9bb-46d2-b226-e33d734ddc8c" />
+
 
 ### Folder Structure
 
