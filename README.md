@@ -124,6 +124,9 @@ Results of each query are exported individually as CSVs into `query_results/` by
 - Returns: total orders, total revenue, unique customers, and top 3 products for that period
 - Automatically compares the period against the immediately preceding period of equal length, showing % revenue change
 
+  <img width="953" height="357" alt="image" src="https://github.com/user-attachments/assets/0f72a869-614d-48a1-b0c7-c76d372891f5" />
+
+
 This was built using only the standard `sqlite3` library (no external dependencies), per the project requirements.
 
 ---
@@ -131,6 +134,8 @@ This was built using only the standard `sqlite3` library (no external dependenci
 ### Edge Case Testing
 
 `TestEdge_Cases.py` verifies the pipeline's behavior against four scenarios that real order data can produce:
+<img width="1240" height="218" alt="image" src="https://github.com/user-attachments/assets/09b5d089-9e9c-41e1-a751-043c620af5f2" />
+
 
 1. `order_items` referencing an `order_id` that doesn't exist in `orders`
 2. `discount_percent` greater than 100 (or negative)
