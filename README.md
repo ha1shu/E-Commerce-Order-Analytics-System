@@ -1,4 +1,4 @@
-## E-Commerce Order Analytics System
+<img width="1790" height="896" alt="image" src="https://github.com/user-attachments/assets/9f249465-93a2-4677-bfaa-4b29ea7d96a9" />## E-Commerce Order Analytics System
 
 An end-to-end data pipeline built with **Python** and **SQLite** that generates messy e-commerce data, cleans it, loads it into a relational database, and produces business analytics through SQL and a command-line reporting tool.
 
@@ -86,6 +86,7 @@ The exact counts of each issue found are written to `cleaned_data/issues_report.
 ### SQL Analysis — Query Summary
 
 All 16 queries live in `sql_script/analysis_query.sql`, grouped into three tiers:
+<img width="1790" height="896" alt="image" src="https://github.com/user-attachments/assets/8eee005c-43c8-48ec-b8fc-48ae28cb2815" />
 
 **Basic**
 1. Total revenue per category
@@ -110,6 +111,8 @@ All 16 queries live in `sql_script/analysis_query.sql`, grouped into three tiers
 16. Self-join to find frequently bought-together product pairs
 
 Results of each query are exported individually as CSVs into `query_results/` by `run_queries.py`, for easy review without needing to re-run SQL manually.
+
+
 
 ---
 
